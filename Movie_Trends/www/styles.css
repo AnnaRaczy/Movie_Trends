@@ -1,0 +1,61 @@
+#container
+{ 
+	margin: 10px;
+	padding: 5px;
+	background-color: #058587;
+	border-radius: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.boxes
+{
+  padding: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+#div0, #div1, #div2, #div3, #div4, #div5, #div6, #div7, #div8, #div9, #div10
+{
+	float:left;
+	padding: 10px;
+  border-radius: 60%;
+  color: gray;
+  cursor: pointer;
+}
+
+
+.btn {
+  height: 60px;
+}
+
+#div0:hover, #div1:hover, #div2:hover, #div3:hover, #div4:hover, #div5:hover, #div6:hover, #div7:hover, #div8:hover, #div9:hover, #div10:hover
+{
+  background-color: #279a9c;
+  color: #015d5e;
+  border: 0 solid #279a9c;
+}
+
+
+
+
+#scrollContainer
+{
+  margin: 10px;
+	height: 180px;
+	width: 200px;
+	border-radius: 20px;
+	display: flex;
+	position: relative;
+}
+
+#myButton
+{
+	padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  bottom:0;
+  right:0;
+}
